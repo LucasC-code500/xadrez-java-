@@ -1,10 +1,10 @@
 package aplication;
-import java.util.Scanner;
-import boardgame.position;
-public class program{
-    public void main](String[] args) {
+import chess.ChessMatch;
+public class Program{
+    public void main(String[] args) {
 
-position pos = new position(3,5);
-System.out.print(pos);
+ChessMatch chessMatch = new ChessMatch();
+UI.printBoard(chessMatch.getPieces()); //UI é user interface  e o metodo recebe a matriz de peças da partida 
+        }
+
     }
-}
